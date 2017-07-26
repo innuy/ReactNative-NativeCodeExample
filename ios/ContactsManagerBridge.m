@@ -1,10 +1,4 @@
-//
-//  ContactsManagerBridge.m
-//  ContactsProject
-//
-//  Created by Ignacio Duran on 7/25/17.
-//  Copyright © 2017 Facebook. All rights reserved.
-//
+//  Created by Innuy on 7/25/17.
 
 #import <React/RCTBridgeModule.h>
 

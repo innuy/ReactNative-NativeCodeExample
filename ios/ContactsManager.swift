@@ -1,10 +1,4 @@
-//
-//  ContactsManager.swift
-//  ContactsProject
-//
-//  Created by Ignacio Duran on 7/25/17.
-//  Copyright © 2017 Facebook. All rights reserved.
-//
+//  Created by Innuy on 7/25/17.
 
 import Foundation
 import Contacts
@@ -25,7 +19,6 @@ class ContactsManager: NSObject {
         label:CNLabelPhoneNumberiPhone,
         value:CNPhoneNumber(stringValue:number as String))]
       
-      // Saving the newly created contact
       let store = CNContactStore()
       let saveRequest = CNSaveRequest()
       saveRequest.add(contact, toContainerWithIdentifier:nil)
